@@ -7,8 +7,8 @@ object SocketSourceStream {
 
   def main(args:Array[String]): Unit = {
 
-    val host = "100.121.49.80"
-    val port = 139
+    val host = "localhost"
+    val port = 9999
 
     val spark = SparkSession.builder()
       .appName("SocketStream")
